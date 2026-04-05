@@ -1,7 +1,7 @@
 # Timbric Counterpoint
 
 A Pure Data (Pd) sound-synthesis patch that reinterprets J. S. Bach's
-*Invention No. 9 in F minor, BWV 780* as a three-voice **timbric counterpoint**:
+*Invention No. 9 in F minor, BWV 795* as a three-voice **timbric counterpoint**:
 each contrapuntal voice is rendered with a distinct synthesis technique, so
 the polyphony unfolds simultaneously in pitch-space and in timbre-space.
 
@@ -97,10 +97,10 @@ If you hear silence, check that:
 
 ## The source work
 
-The underlying composition is **J. S. Bach — *Invention No. 9 in F minor,
-BWV 780*** (public domain). The MIDI files shipped here encode a
+The underlying composition is **J. S. Bach — *Three-part Invention No. 9 in F minor,
+BWV 795*** (public domain). The MIDI files shipped here encode a
 three-voice transcription used as the driver for the three synthesis
-engines. A reference score can be obtained from [IMSLP](https://imslp.org/wiki/Inventions_and_Sinfonias,_BWV_772-801_(Bach,_Johann_Sebastian)).
+engines. A reference score can be obtained from [IMSLP](https://imslp.org/wiki/Sinfonia_in_F_minor,_BWV_795_(Bach,_Johann_Sebastian)).
 
 ---
 
