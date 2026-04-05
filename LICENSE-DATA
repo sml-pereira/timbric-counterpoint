@@ -1,0 +1,36 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+=============================================================
+
+Copyright (c) 2026 Samuel Pereira
+
+The data files distributed in this repository — specifically the MIDI files
+in `patch/counterpoint_*_a.mid` and the audio sample `patch/yamaha_c4.wav` —
+are licensed under the Creative Commons Attribution 4.0 International
+License (CC BY 4.0).
+
+You are free to:
+  - Share: copy and redistribute the material in any medium or format.
+  - Adapt: remix, transform, and build upon the material for any purpose,
+    even commercially.
+
+Under the following terms:
+  - Attribution: You must give appropriate credit, provide a link to the
+    licence, and indicate if changes were made. You may do so in any
+    reasonable manner, but not in any way that suggests the licensor
+    endorses you or your use.
+  - No additional restrictions: You may not apply legal terms or
+    technological measures that legally restrict others from doing anything
+    the licence permits.
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+Suggested attribution:
+  "Timbric Counterpoint data © 2026 Samuel P., licensed under CC BY 4.0."
+
+Note on underlying musical work
+-------------------------------
+The MIDI files are a transcription of J. S. Bach's "Invention No. 9 in
+F minor, BWV 780", which is in the public domain. The CC BY 4.0 licence
+applies to this specific MIDI encoding/arrangement and to the `yamaha_c4.wav`
+recording, not to the underlying composition.
