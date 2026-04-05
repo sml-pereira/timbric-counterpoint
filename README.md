@@ -1,5 +1,7 @@
 # Timbric Counterpoint
 
+[![Demo video](https://vumbnail.com/1180307052.jpg)](https://vimeo.com/1180307052)
+
 A Pure Data (Pd) sound-synthesis patch that reinterprets J. S. Bach's
 *Invention No. 9 in F minor, BWV 795* as a three-voice **timbric counterpoint**:
 each contrapuntal voice is rendered with a distinct synthesis technique, so
