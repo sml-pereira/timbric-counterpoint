@@ -47,10 +47,8 @@ timbric-counterpoint/
 ├── .gitignore
 ├── LICENSE              ← MIT (covers the Pd patch / code)
 ├── LICENSE-DATA         ← CC BY 4.0 (covers MIDI + WAV data)
-├── CITATION.cff
 ├── CHANGELOG.md
 ├── README.md
-├── docs/                ← diagrams, screenshots, notes (optional)
 └── patch/
     ├── timbric_counterpoint.pd   ← main patch (open this one)
     ├── counterpoint_1_a.mid      ← voice 1 (soprano)
@@ -72,10 +70,6 @@ timbric-counterpoint/
 Inside Pd: `Help → Find externals…` → search for `cyclone` → click **Install**.
 Then ensure it is loaded automatically: `Pd → Preferences → Startup…` and add
 `cyclone` to the list of libraries to load at start-up.
-
-> No Python is needed; this project is not Python-based, so it has no
-> `requirements.txt`. The only runtime dependencies are Pd itself and the
-> `cyclone` external listed above.
 
 ---
 
@@ -106,8 +100,7 @@ If you hear silence, check that:
 The underlying composition is **J. S. Bach — *Invention No. 9 in F minor,
 BWV 780*** (public domain). The MIDI files shipped here encode a
 three-voice transcription used as the driver for the three synthesis
-engines. A reference score (not redistributed here for repository-size
-reasons) can be obtained from [IMSLP](https://imslp.org/wiki/Inventions_and_Sinfonias,_BWV_772-801_(Bach,_Johann_Sebastian)).
+engines. A reference score can be obtained from [IMSLP](https://imslp.org/wiki/Inventions_and_Sinfonias,_BWV_772-801_(Bach,_Johann_Sebastian)).
 
 ---
 
@@ -121,19 +114,6 @@ art-code projects:
 - **Data** — the MIDI files (`patch/counterpoint_*_a.mid`) and the audio
   sample (`patch/yamaha_c4.wav`): **Creative Commons Attribution 4.0
   International (CC BY 4.0)**, see [`LICENSE-DATA`](./LICENSE-DATA).
-
-If you use this work in a publication, performance or derivative patch,
-please cite it (see [`CITATION.cff`](./CITATION.cff)).
-
----
-
-## Citation
-
-```
-Samuel P. (2026). Timbric Counterpoint: a Pure Data patch for
-three-voice timbral rendering of Bach's Invention No. 9 in F minor.
-https://github.com/sml.pereira/timbric-counterpoint
-```
 
 ---
 
